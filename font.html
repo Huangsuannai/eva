@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Eva的特别世界</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <style>
+            header {
+                letter-spacing: 2px;
+                font-size: 1.2rem;
+                font-weight: bold;
+                background: #f2f2f2;
+            }
+            #carouselExampleIndicators button {
+                color: aqua !important;
+            }
+            .carousel-item .inner {
+                width: 100%;
+
+                height: 600px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                /* gap: 20px; */
+            }
+            .carousel-item img {
+                width: fit-content;
+                height: 100%;
+                object-fit: contain;
+                object-position: center;
+            }
+            .carousel-control-next-icon,
+            .carousel-control-prev-icon {
+                border-radius: 50% !important;
+                background-color: #a1a1a1 !important;
+                background-size: 80%;
+            }
+            .carousel-indicators button {
+                background-color: #4a91c1 !important;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 顶部导航栏 -->
+        <header>
+            <nav class="dao">
+                <div class="rongqi">
+                    <div class="logo">
+                        <a href="index.html"><img src="img/logo.png" alt="Logo" /></a>
+                        <span>Eva的特别世界</span>
+                    </div>
+                    <ul class="lian">
+                        <li><a class="active" href="index.html#zuopin">首页</a></li>
+                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">项目</a></li>
+                        <li><a href="#">联系</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- 主视觉区域 -->
+        <main class="font">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <!-- <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"></button> -->
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="inner">
+                            <img src="./img/font/1.jpg" alt="..." />
+                            <img src="./img/font/2.jpg" alt="..." />
+                            <img src="./img/font/3.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="inner">
+                            <img src="./img/font/h1.jpg" alt="..." />
+                            <img src="./img/font/h2.jpg" alt="..." />
+                            <img src="./img/font/h3.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- <div class="carousel-item">
+                        <img src="./img/font/3.jpg" class="d-block w-100" alt="..." />
+                    </div> -->
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <h1>字体设计</h1>
+            <section class="part">
+                <div class="pic">
+                    <img src="img/font/m.jpg" alt="" />
+                </div>
+                <div class="intro">
+                    <h2>1. 蒙德奇幻体</h2>
+                    <p>
+                        第一套字体名字为蒙德奇幻体。该字体的灵感来源于几何平凑的字体，一些线条的组合.
+                        以及蒙德里安绘画的特点。运用。想要通过简化的几何代替笔画，不是奇怪可爱的同时也保持字体的辨识度。给人以奇妙感，结合蒙德里安配色后虽然字体简单但是视觉效果丰富。
+                    </p>
+                </div>
+            </section>
+            <div class="wrapper">
+                <div class="font-title">字体展示</div>
+                <div class="show">
+                    <div class="show-item">
+                        <img src="img/font/1.jpg" alt="" />
+                    </div>
+                    <div class="show-item">
+                        <img src="img/font/2.jpg" alt="" />
+                    </div>
+                    <div class="show-item">
+                        <img src="img/font/3.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="font-title">案例展示</div>
+                <div class="show">
+                    <div class="show-item">
+                        <img src="img/font/4.jpg" alt="" />
+                    </div>
+                    <div class="show-item">
+                        <img src="img/font/5.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <section class="part">
+                <div class="intro">
+                    <h2>2. 鹤唳风颐体</h2>
+                    <p>
+                        第二套字体名字为鹤唳风颐体。该字体的灵感来源于瘦金体与行楷的结合，模仿书法大家赵佶和赵孟頫的字体而来。结合笔锋纤细有力极有韵味的瘦金体如飞翔的白鹤一般，有力苍劲的楷体如风一样和沐，给人以古典韵味，素雅古朴又带有潇洒之感。
+                    </p>
+                </div>
+                <div class="pic">
+                    <img src="img/font/h.jpg" alt="" />
+                </div>
+            </section>
+            <div class="wrapper">
+                <div class="font-title">字体展示</div>
+                <div class="show">
+                    <div class="show-item">
+                        <img src="img/font/h1.jpg" alt="" />
+                    </div>
+                    <div class="show-item">
+                        <img src="img/font/h2.jpg" alt="" />
+                    </div>
+                    <div class="show-item">
+                        <img src="img/font/h3.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="font-title">案例展示</div>
+                <div class="show">
+                    <div class="show-item">
+                        <img src="img/font/h4.jpg" alt="" />
+                    </div>
+                    <div class="show-item">
+                        <img src="img/font/h5.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- 页脚 -->
+        <footer class="dibu">
+            <div class="rongqi">
+                <p>&copy; 2024 黄佳颖. 所有权利保留.</p>
+                <div class="shejiao">
+                    <a href="#"><i class="fab fa-weixin"></i> 微信</a>
+                    <a href="#"><i class="fas fa-envelope"></i> 邮箱</a>
+                    <a href="#"><i class="fas fa-phone"></i> 联系我</a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script>
+            // const myCarouselElement = document.querySelector('#carouselExampleIndicators');
+            // const carousel = new bootstrap.Carousel(myCarouselElement, {
+            //     interval: 2000,
+            //     touch: true
+            // });
+        </script>
+    </body>
+</html>
