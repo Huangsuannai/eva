@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Eva的特别世界</title>
+        <!-- <link rel="stylesheet" href="css/styles.css" /> -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+
+        <link rel="stylesheet" href="css/index.css" />
+        <style>
+            header {
+                letter-spacing: 2px;
+                font-size: 1.2rem;
+                font-weight: bold;
+                background: #f2f2f2;
+            }
+            #carouselExampleIndicators button {
+                color: aqua !important;
+            }
+            .carousel-item .inner {
+                width: 100%;
+
+                height: 600px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                /* gap: 20px; */
+            }
+            .carousel-item img {
+                width: fit-content;
+                height: 90%;
+                object-fit: contain;
+                object-position: center;
+            }
+            .carousel-control-next-icon,
+            .carousel-control-prev-icon {
+                border-radius: 50% !important;
+                background-color: #a1a1a1 !important;
+                background-size: 80%;
+            }
+            .carousel-indicators button {
+                background-color: #4a91c1 !important;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 顶部导航栏 -->
+        <header>
+            <nav class="dao">
+                <div class="rongqi">
+                    <div class="logo">
+                        <a href="index.html"><img src="img/logo.png" alt="Logo" /></a>
+                        <span>Eva的特别世界</span>
+                    </div>
+                    <ul class="lian">
+                        <li><a class="active" href="index.html#zuopin">首页</a></li>
+                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">项目</a></li>
+                        <li><a href="#">联系</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- 主视觉区域 -->
+        <main class="pattern">
+            <h1>传统纹样设计</h1>
+            <p class="intro">
+                畲族具有悠久的历史，是中国东南地区人口最多的一个古老的少数民族。全用畲族人口约有70万，其中约52%的含族人口散居在福建，位于福建东北部宁德地区的霞浦县、罗源县和福安县是备族的主要居住地。民族传统文化底蕴深厚，有者鲜明的民族和地域特色。
+                作为一个福建本土人民，我也想从传统畲族纹样了解其文化，畲族人民对于自然尊敬崇拜，纹样中的许多花草纹，动物纹皆展示了他们对美好生活的向往，团结友爱的祝福。本次进行再设计，我主要使用了传统鱼纹，花草纹以及几何元素，打造简洁可爱同时具有传统特色的纹样。目的在于展现畲族独有的文化魅力，使畲族展现在大众的视野中，使更多的人了解这个单一的聚集的少数民族，了解畲族文化引起大众兴趣，使受众人群增多的同时畲族传统文化得到流传。
+            </p>
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="inner">
+                            <img src="./img/pattern/2.jpg" alt="..." />
+                            <img src="./img/pattern/1.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="inner">
+                            <img src="./img/pattern/11.jpg" alt="..." />
+                            <img src="./img/pattern/12.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="inner">
+                            <!-- <img src="./img/pattern/111.jpg" alt="..." /> -->
+                            <img src="./img/pattern/112.jpg" alt="..." />
+                            <img src="./img/pattern/113.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- <div class="carousel-item">
+                        <img src="./img/font/3.jpg" class="d-block w-100" alt="..." />
+                    </div> -->
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="list">
+                <div class="item">
+                    <img src="img/pattern/112.jpg" alt="" />
+                    <div class="text">
+                        该纹样是“鹿食竹子”为主中心图，组合花草纹元素为辅助进行的再设计纹样。
+                        鱼纹在畲族用来象征富裕，寓意着金玉满堂富贵有余等涵义；花草纹纹样造型常用植物花卉作为主要元素，在日常生活中通过模仿自然寻找美的规律创造了一系列圆满、柔和的纹样，这种富足、完满、灵动、向上的视觉形象呈现出畲族人民对吉祥如意的向往与祝愿。
+                        颜色上使用的橙黄色与深蓝色进行对比，打造一个简洁明了，活泼有趣的画面。
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="text">
+                        该纹样是以鱼纹为主中心图，组合花草纹与几何元素为辅助进行的再设计纹样。
+                        鱼纹在畲族用来象征富裕，寓意着金玉满堂富贵有余等涵义；花草纹寓意着美好，四季常青，人美对美好生活的向往。
+                    </div>
+                    <img src="img/pattern/1.jpg" alt="" />
+                </div>
+                <div class="item">
+                    <img src="img/pattern/12.jpg" alt="" />
+                    <div class="text">
+                        该纹样是以鱼纹为主中心图，组合花草纹与几何元素为辅助进行的再设计纹样。
+                        鱼纹在畲族用来象征富裕，寓意着金玉满堂富贵有余等涵义；花草纹寓意着美好，四季常青，人美对美好生活的向往。
+                        颜色上使用的颜色相对明亮，与黑色底色进行对比，打造一个相对清新明亮的画面校果。
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <h2>衍生产品</h2>
+                <div class="product-list">
+                    <div class="item small">
+                        <img src="img/pattern/y1.jpg" alt="" />
+                    </div>
+                    <div class="item">
+                        <img src="img/pattern/y2.jpg" alt="" />
+                    </div>
+                    <div class="item">
+                        <img src="img/pattern/y3.jpg" alt="" />
+                    </div>
+                    <div class="item">
+                        <img src="img/pattern/y4.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- 页脚 -->
+        <footer class="dibu">
+            <div class="rongqi">
+                <p>&copy; 2024 黄佳颖. 所有权利保留.</p>
+                <div class="shejiao">
+                    <a href="#"><i class="fab fa-weixin"></i> 微信</a>
+                    <a href="#"><i class="fas fa-envelope"></i> 邮箱</a>
+                    <a href="#"><i class="fas fa-phone"></i> 联系我</a>
+                </div>
+            </div>
+        </footer>
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
